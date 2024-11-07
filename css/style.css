@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F0E7;
+    color: #000000;
+    font-family: "Ubuntu", serif;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { 
+        transform: translateY(0); 
+    }
+    40% { 
+        transform: translateY(-30px); 
+    }
+    60% { 
+        transform: translateY(-15px); 
+    }
+}
+
+.logo {
+    animation: bounce 2s infinite forwards;
+}
+
+
+
+nav {
+    background-color: #A89B8C;
+    color: #F9F0E7;
+    border-radius: 8em;
+    padding: 0.1em;
+    text-align: center;
+    align-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    text-align: left;
+    padding: 1.5em;
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    background-color: #A89B8C;
+    padding: 1.5em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+
+p {
+    text-align: left;
+    padding: 1.5em;
+}
+
+section:last-of-type {
+    margin-bottom: 8em;
+}
+
+.plant-based .links {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    height: auto;
+}
+
+.plant-based .links p {
+    height: auto;
+    padding-top: 0;
+}
+
+.plant-based .rechts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+}
+
+.links,.rechts img {
+    height: 150px;
+    align-items: center;
+}
+
+nav p {
+    padding: 0;
+    text-align: center;
+}
+
+.recyclelogo {
+    display: flex;
+    justify-content: center;
+}
